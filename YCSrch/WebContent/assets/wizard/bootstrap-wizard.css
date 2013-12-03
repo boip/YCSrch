@@ -1,0 +1,176 @@
+.wizard {
+	display:none;
+}
+.wizard-modal form {
+	margin:0;
+	padding:0;
+}
+.wizard-modal .modal-dialog {
+	padding-bottom:0px;
+	padding-top:90px
+}
+
+.wizard-modal-footer.modal-footer{
+	margin-top:0px;
+	padding:0;
+}
+.wizard-modal-header.modal-header h3 {
+	line-height:35px;
+	display:inline
+}
+.wizard-modal-header.modal-header {
+	border-bottom:0;
+	padding:5px 10px;
+	background-color: #4D7496;
+  	border-bottom:2px solid #2A4053;
+	border-radius: 6px 6px 0px 0px;
+	color:#ffffff;
+}
+
+.wizard-subtitle {
+	font-weight:bold;
+	color:#ffffff;
+	padding-left:20px;
+}
+
+.wizard-error,
+.wizard-failure,
+.wizard-success,
+.wizard-loading,
+.wizard-card {
+	position:relative;
+	padding:15px;
+	padding-top:5px;
+	overflow-y:auto;
+	height:300px;
+	display:none;
+	border-top: 1px solid #EEE;
+	margin-right: 5px;
+}
+
+.wizard-nav-link .icon-chevron-right {
+	float:right;
+	margin-top:8px;
+	margin-right:-6px;
+	opacity:.25;
+}
+
+li.wizard-nav-item.active .icon-chevron-right {
+	opacity:1;
+}
+
+li.wizard-nav-item {
+	line-height:30px;
+}
+.wizard-modal.modal .list-group .list-group-item{
+	padding:0 0;
+}
+.wizard-modal.modal .list-group > li.list-group-item > a {
+	background-color:#f5f5f5;
+	padding:3px 15px 3px 20px;
+	cursor:default;
+	color:#B4B4B4;
+}
+
+.wizard-modal.modal .list-group li.active > a {
+	background-color:#08C;
+}
+
+.wizard-modal.modal .list-group > li.already-visited > a.wizard-nav-link {
+	color:#08C;
+	cursor:pointer;
+}
+
+.wizard-modal.modal .list-group > li.active > a.wizard-nav-link {
+	color:white;
+}
+
+.already-visited > a.wizard-nav-link:hover {
+	background-color:#E4E4E4;
+}
+
+.wizard-card > h3,.wizard-success > h3 {
+	margin-top:0;
+	margin-bottom:10px;
+	border-bottom:1px dashed #DDDDDD;
+	font-size:21px;
+	line-height:30px;
+	font-weight:normal;
+}
+.wizard-card .dl-horizontal dt{
+	width:100px;
+	line-height:25px;
+}
+.wizard-card .dl-horizontal dd{
+	margin-left:110px;
+	line-height:25px;
+}
+.wizard-progress {
+	padding:15px;
+	bottom:0;
+}
+.wizard-progress-container {
+	padding:10px;
+}
+
+.wizard-steps {
+	width:25%;
+	height:425px;
+	background-color:#f5f5f5;
+}
+
+.wizard-nav-container {
+	height:360px;
+}
+
+.nav > li > a.wizard-step-error {
+	background-color:#F2DEDE;
+	color:#B94A48;
+	font-weight:bold;
+}
+
+.wizard-step-error .icon-chevron-right {
+	opacity:0;
+}
+
+.wizard-input-section {
+	margin-bottom:20px;
+}
+
+.wizard-buttons-container {
+	padding:10px;
+}
+
+.wizard-cancel {
+	display:none;
+	margin-left:20px;
+}
+
+.wizard-modal .popover.error-popover {
+	background-color:#F2DEDE;
+	color:#B94A48;
+	border-color:#953B39;
+}
+
+.wizard-modal .popover.error-popover .arrow::after {
+	border-top-color:#F2DEDE;
+}
+
+.wizard-modal .popover.error-popover .popover-title {
+	display:none;
+}
+
+.wizard-modal .popover.error-popover .arrow {
+	border-top-color:#953B39;
+}
+.wizard-nav-container .list-group-item:first-child,
+.wizard-nav-container .list-group-item:last-child{
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+}
+.wizard-nav-container .list-group-item.active, 
+.wizard-nav-container .list-group-item.active:hover, 
+.wizard-nav-container .list-group-item.active:focus{
+	background-color: #4D7496;
+	border-color: #4D7496;
+}
